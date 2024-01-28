@@ -28,4 +28,10 @@ public class Post {
         this.content = content;
         this.author = author;
     }
+
+    // 수정 로직
+    public void update(String title, String content) {
+        this.title = title;
+        this.content = content;
+    }
 }

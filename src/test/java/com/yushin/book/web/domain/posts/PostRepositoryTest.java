@@ -15,12 +15,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class PostRepositoryTest {
 
     @Autowired
-    PostRepository postsRepository;
+    PostRepository postRepository;
 
     // 데이터 모두 삭제 (@Test 어노테이션 코드 실행 후 자동 실행 - 테스트 실패해도 실행됨)
     @AfterEach
     public void cleanUp() {
-        postsRepository.deleteAll();
+        postRepository.deleteAll();
     }
 
     @Test
@@ -29,14 +29,14 @@ class PostRepositoryTest {
         String title = "테스트 게시글";
         String content = "테스트 본문";
 
-        postsRepository.save(Post.builder()
+        postRepository.save(Post.builder()
                 .title(title)
                 .content(content)
                 .author("yushin")
                 .build());
 
         // when
-        List<Post> postList = postsRepository.findAll();
+        List<Post> postList = postRepository.findAll();
 
         // then
         Post post = postList.get(0);
