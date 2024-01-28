@@ -1,10 +1,7 @@
 package com.yushin.book.web.dto;
 
-import com.yushin.book.web.HelloController;
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 
-import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
 class HelloResponseDtoTest {
@@ -19,8 +16,13 @@ class HelloResponseDtoTest {
         HelloResponseDto dto = new HelloResponseDto(name, amount);
 
         // then
-        assertThat(dto.getName()).isEqualTo(name);
-        assertThat(dto.getAmount()).isEqualTo(amount);
+        // junit5
+        assertEquals(dto.getName(), name);
+        assertEquals(dto.getAmount(), amount);
+
+        // junit4
+        // assertThat(dto.getName()).isEqualTo(name);
+        // assertThat(dto.getAmount()).isEqualTo(amount);
 
     }
 }
