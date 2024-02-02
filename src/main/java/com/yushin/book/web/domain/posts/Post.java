@@ -1,5 +1,6 @@
 package com.yushin.book.web.domain.posts;
 
+import com.yushin.book.web.domain.BaseTime;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,7 +10,7 @@ import javax.persistence.*;
 @Getter
 @NoArgsConstructor // 기본 생성자 자동 추가
 @Entity // 카멜케이스 -> DB에서 스네이크케이스로 자동 변경
-public class Post {
+public class Post extends BaseTime {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

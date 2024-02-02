@@ -40,3 +40,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### 구글 클라이언트 정보 ###
+application-oauth.properties
