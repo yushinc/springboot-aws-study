@@ -1,6 +1,6 @@
-package com.yushin.book.web.domain.posts;
+package com.yushin.book.domain.posts;
 
-import com.yushin.book.web.domain.BaseTime;
+import com.yushin.book.domain.BaseTime;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

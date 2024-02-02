@@ -1,4 +1,4 @@
-package com.yushin.book.web.domain.posts;
+package com.yushin.book.domain.posts;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

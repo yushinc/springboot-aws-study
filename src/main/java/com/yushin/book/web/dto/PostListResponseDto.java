@@ -1,11 +1,8 @@
 package com.yushin.book.web.dto;
 
-import com.yushin.book.web.domain.posts.Post;
+import com.yushin.book.domain.posts.Post;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
-import org.springframework.web.bind.annotation.GetMapping;
 
-import javax.persistence.Column;
 import java.time.LocalDateTime;
 
 @Getter

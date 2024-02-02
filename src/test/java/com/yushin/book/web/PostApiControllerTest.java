@@ -1,7 +1,7 @@
 package com.yushin.book.web;
 
-import com.yushin.book.web.domain.posts.Post;
-import com.yushin.book.web.domain.posts.PostRepository;
+import com.yushin.book.domain.posts.Post;
+import com.yushin.book.domain.posts.PostRepository;
 import com.yushin.book.web.dto.PostSaveRequestDto;
 import com.yushin.book.web.dto.PostUpdateRequestDto;
 import org.junit.jupiter.api.AfterEach;

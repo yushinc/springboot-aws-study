@@ -1,7 +1,7 @@
 package com.yushin.book.service;
 
-import com.yushin.book.web.domain.posts.Post;
-import com.yushin.book.web.domain.posts.PostRepository;
+import com.yushin.book.domain.posts.Post;
+import com.yushin.book.domain.posts.PostRepository;
 import com.yushin.book.web.dto.PostListResponseDto;
 import com.yushin.book.web.dto.PostResponseDto;
 import com.yushin.book.web.dto.PostSaveRequestDto;
@@ -11,7 +11,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @RequiredArgsConstructor

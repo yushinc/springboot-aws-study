@@ -1,6 +1,6 @@
 package com.yushin.book.web.dto;
 
-import com.yushin.book.web.domain.posts.Post;
+import com.yushin.book.domain.posts.Post;
 import lombok.Getter;
 
 @Getter

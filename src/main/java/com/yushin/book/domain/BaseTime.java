@@ -1,4 +1,4 @@
-package com.yushin.book.web.domain;
+package com.yushin.book.domain;
 
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;

@@ -1,5 +1,7 @@
 package com.yushin.book.web.domain.posts;
 
+import com.yushin.book.domain.posts.Post;
+import com.yushin.book.domain.posts.PostRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

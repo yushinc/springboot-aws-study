@@ -1,11 +1,9 @@
 package com.yushin.book.web.dto;
 
-import com.yushin.book.web.domain.posts.Post;
+import com.yushin.book.domain.posts.Post;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-
-import javax.persistence.Column;
 
 @Getter
 @NoArgsConstructor
