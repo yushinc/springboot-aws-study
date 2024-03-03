@@ -2,6 +2,7 @@ language: java
 jdk:
   - openjdk17
 
+# 자동화 브랜치 설정
 branches:
   only:
     - master
