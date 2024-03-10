@@ -10,7 +10,7 @@ version = '1.0.1-SNAPSHOT'
 
 
 java {
-    sourceCompatibility = '17'
+    sourceCompatibility = '11'
 }
 
 // 각종 의존성 라이브러리들을 어떤 원격 저장소에서 받을지 지정
